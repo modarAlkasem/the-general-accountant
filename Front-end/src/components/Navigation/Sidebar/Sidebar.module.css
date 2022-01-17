@@ -1,0 +1,18 @@
+.Sidebar{
+    position:fixed;
+    height:100vh;
+    margin:0;
+    width:242px;
+    background-color:#ebeff4;
+    z-index:100;
+    
+
+}
+.Sidebar nav{
+    display:block;
+    margin:0;
+    padding:0;
+    margin-top:5px;
+
+
+}

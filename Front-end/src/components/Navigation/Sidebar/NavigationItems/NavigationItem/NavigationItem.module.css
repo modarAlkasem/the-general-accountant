@@ -1,0 +1,39 @@
+.NavigationItem{  
+    display:block;
+    color:#4D6575;
+    font-size:16px;
+    width:100%;
+    margin-bottom: 12px;
+}
+
+.NavigationItem a{ 
+    text-decoration :none;
+    display:block;
+    color:inherit;
+    font-size:inherit;
+    font-weight:normal;
+    width:100%;
+    padding:0 11% 0 21%;
+    box-sizing :border-box;
+    
+
+
+}
+
+.NavigationItem a span{
+    position:relative;
+    bottom:10px;
+    right:10px;
+    font-weight:inherit;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active{
+    color: #1c252c;
+
+}
+
+.NavigationItem a.Active{
+    color: #136acd;
+    font-weight:bold;
+}

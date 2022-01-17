@@ -1,0 +1,148 @@
+.Table{
+    display: block;
+    width: 100%;
+    overflow-y:auto;
+}
+.Table.JournalSecondTable{
+    max-height: 35vh;
+    overflow-y: auto;
+}
+.Table.Table.JournalFooterTable{
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.Table thead{
+    display:block;
+    width:100%;
+
+}
+
+.Table tbody{
+    display:block;
+    width:100%;
+    padding-bottom:10px 0;
+}
+
+.Table tr{
+    display:block;
+    width:100%;
+}
+
+.Table tbody tr{
+    cursor: pointer;
+}
+
+.Table tbody tr:hover , 
+.Table tbody tr:active {
+
+    background-color: rgba(231,239,255,0.9);
+}
+
+.Table thead th{
+
+    padding:5px;
+    border-bottom: 1px solid #d4dde3;
+    display: inline-block;
+    color: #2F414A;
+    white-space: nowrap;
+    text-align: center;
+    box-sizing: border-box;
+    height: 37px;
+
+}
+
+.Table tbody tr td{
+    display:inline-block;
+    white-space: nowrap;
+    text-align: center;
+    color: #2F414A;
+    padding: 5px;
+    border: 1px solid #d4dde3;
+    box-sizing: border-box;
+    height: 37px;
+}
+
+.Table.LedgerFirstTable td,.Table.LedgerFirstTable th{
+
+    width:17%;
+}
+.Table.JournalFirstTable th{
+    width:23.7%;
+}
+.Table.JournalFirstTable td{
+    width:23.7%;
+}
+.Table.JournalFirstTable th,
+.Table.JournalSecondTable th{
+
+    background-color: #e2ebf1;
+}
+.Table.JournalSecondTable th{
+    width:22.6%
+}
+.Table.JournalSecondTable th.ThDesc{
+    width:27%;
+}
+
+.Table.JournalSecondTable td{
+    width:22.6%
+}
+.Table.JournalSecondTable td.TdDesc{
+    width:27%;
+}
+.Table.JournalFooterTable th{
+    background-color: #e2ebf1;
+}
+.Table.JournalFooterTable th,
+.Table.JournalFooterTable td{
+    width:31.6%;
+}
+
+.Table.LedgerSecondTable td ,
+.Table.LedgerSecondTable th {
+    width: 23.75%;
+}
+
+.Table.TrialBalanceTable th,
+.Table.TrialBalanceTable td{
+    width:31.6%;
+
+}
+.Table.FinalAccountsFirstTable th,
+.Table.FinalAccountsFirstTable td,
+.Table.FinalAccountsSecondTable th,
+.Table.FinalAccountsSecondTable td{
+    width:23.7%;
+}
+
+
+.Table.LedgerFirstTable td.TdIndex,
+.Table.LedgerFirstTable th.ThIndex,
+.Table.LedgerSecondTable th.ThIndex,
+.Table.LedgerSecondTable td.TdIndex,
+.Table.JournalSecondTable td.TdIndex,
+.Table.JournalSecondTable th.ThIndex,
+.Table.JournalFirstTable td.TdIndex,
+.Table.JournalFirstTable th.ThIndex,
+.Table.JournalFooterTable th.ThIndex,
+.Table.JournalFooterTable td.TdIndex,
+.Table.TrialBalanceTable th.ThIndex,
+.Table.TrialBalanceTable td.TdIndex,
+.Table.FinalAccountsFirstTable th.ThIndex,
+.Table.FinalAccountsFirstTable td.TdIndex,
+.Table.FinalAccountsSecondTable th.ThIndex,
+.Table.FinalAccountsSecondTable td.TdIndex{
+
+    width:5%;
+    
+
+
+}
+.Table.LedgerFirstTable td.TdDesc,
+.Table.LedgerFirstTable th.ThDesc{
+    width:27%;
+}
+
+
+
+

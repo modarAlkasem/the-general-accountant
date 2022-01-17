@@ -1,0 +1,48 @@
+.Hint{
+    margin:0;
+    padding:24px;
+    width:300px;
+    height:200;
+    box-sizing:border-box;
+    z-index:50;
+    position:absolute;
+    right:100px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid rgba(77,101,117,0.07);
+    box-shadow: 0 4px 36px 4px rgb(0 0 0 / 10%);
+     transition :transform 0.15s ease-in-out,
+     opacity 0.15s ease-in-out,
+     visibility 0.15s ease-in-out ;
+    
+}
+
+.CloseIcon{
+    padding:0;
+    width:20px;
+    height:20px;
+    margin:0;
+    position:absolute;
+    left:0;
+    
+    top:4px;
+   
+    cursor:pointer;
+
+}
+
+.Content{
+     color:#718fa2
+}
+
+.Open{
+    visibility: visible;
+    transform: translateY(10px);
+     opacity:1;
+}
+
+.Close{
+    transform: translateY(-10px);
+     opacity:0;
+     visibility: hidden;
+}

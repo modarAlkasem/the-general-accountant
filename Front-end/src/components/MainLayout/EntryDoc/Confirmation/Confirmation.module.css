@@ -1,0 +1,84 @@
+.Message{
+    margin:0;
+    padding:10px 70px 16px 70px;
+    box-sizing:border-box;
+    text-align:center;
+    border-bottom: 1px solid rgb(212, 221, 227);
+
+}
+.Footer{
+    margin:10px 0 5px 10px;
+    padding:0;
+    text-align:left;
+
+}
+.Footer .BtnWrap{
+    margin:0 5px;
+    padding:0;
+    width: 16%;
+    display: inline-block;
+}
+.Footer .BtnWrap button{
+    height:40px;
+    padding-top:6px;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out ;
+}
+
+.Footer .BtnWrap .CancelBtn{       
+    background-color:#fff;
+    color:#136ACD;
+    border-color:#136ACD;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out ;
+
+}
+.Footer .BtnWrap .CancelBtn:hover , .Footer .BtnWrap .CancelBtn:active{
+    background-color:#97c3f5;
+    border-color:#204a79;
+    color:#204a79;
+}
+.Footer .BtnWrap .DeleteBtn{
+    background-color: #b52626;
+    color: #fff;
+    border-color: #b52626;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out ;
+}
+.Footer .BtnWrap .DeleteBtn:hover, .Footer .BtnWrap .DeleteBtn:active{
+    background-color: #800808;
+    border-color: #800808;
+}
+
+.Footer .BtnWrap .AddBtn{
+    background-color: rgb(19, 106, 205);
+    color: rgb(255, 255, 255);
+    border-color: rgb(19, 106, 205);
+
+}
+.Footer .BtnWrap .AddBtn:hover, .Footer .BtnWrap .AddBtn:active{
+     background-color: #00408a ;
+    border-color: #00408a ;
+
+}
+
+.Footer .BtnWrap .CreateBtn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(19, 106, 205);
+    border-color: rgb(19, 106, 205);
+}
+
+.Footer .BtnWrap .CreateBtn:hover, .Footer .BtnWrap .CreateBtn:active{
+    background-color:#97c3f5;
+    border-color:#204a79;
+    color:#204a79;
+
+}
+
+.Footer .BtnWrap .EditBtn{
+    background-color: #30dfe8;
+    color: rgb(255, 255, 255);
+    border-color: #30dfe8;
+
+}
+.Footer .BtnWrap .EditBtn:hover , .Footer .BtnWrap .EditBtn:active{
+    background-color: #07b0b9 ;
+    border-color: #07b0b9 ;
+}

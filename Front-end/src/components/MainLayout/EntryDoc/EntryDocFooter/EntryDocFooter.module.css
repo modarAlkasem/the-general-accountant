@@ -1,0 +1,89 @@
+.EntryDocFooter{
+    border-top: 1px solid rgb(212, 221, 227);
+    margin: 0;
+    padding: 10px 0 5px 0;
+    text-align: center;
+
+}
+
+.EntryDocFooter .BtnWrap{
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    padding: 0;
+    width: 15%;
+    
+
+}
+.EntryDocFooter .BtnWrap .AddBtn{
+    background-color: rgb(19, 106, 205);
+    color: rgb(255, 255, 255);
+    border-color: rgb(19, 106, 205);
+
+}
+.EntryDocFooter .BtnWrap .AddBtn:hover , .EntryDocFooter .BtnWrap .AddBtn:active{
+    background-color: #00408a ;
+    border-color: #00408a ;
+}
+
+.EntryDocFooter .BtnWrap .AddBtn.Disabled,.EntryDocFooter .BtnWrap .AddBtn.Disabled:hover , .EntryDocFooter .BtnWrap .AddBtn.Disabled:active{
+    background-color:#4596ed;
+    cursor:not-allowed;
+    border-color:#4596ed;
+}
+
+
+.EntryDocFooter .BtnWrap .EditBtn{
+    background-color: #30dfe8;
+    color: rgb(255, 255, 255);
+    border-color: #30dfe8;
+
+}
+.EntryDocFooter .BtnWrap .EditBtn:hover , .EntryDocFooter .BtnWrap .EditBtn:active{
+    background-color: #07b0b9 ;
+    border-color: #07b0b9 ;
+}
+.EntryDocFooter .BtnWrap .EditBtn.EditBtnDisabled , 
+.EntryDocFooter .BtnWrap .EditBtn.EditBtnDisabled:hover , 
+.EntryDocFooter .BtnWrap .EditBtn.EditBtnDisabled :active{
+  background-color:#a3f1f5;
+  border-color:#a3f1f5;
+    cursor:not-allowed;
+}
+
+.EntryDocFooter .BtnWrap .NewBtn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(19, 106, 205);
+    border-color: rgb(19, 106, 205);
+}
+
+.EntryDocFooter .BtnWrap .NewBtn:hover , .EntryDocFooter .BtnWrap .NewBtn:active{
+    background-color:#97c3f5;
+    border-color:#204a79;
+    color:#204a79;
+}
+.EntryDocFooter .BtnWrap .NewBtn.NewBtnDisabled ,
+.EntryDocFooter .BtnWrap .NewBtn.NewBtnDisabled:hover , 
+.EntryDocFooter .BtnWrap .NewBtn.NewBtnDisabled:active {
+    background-color:#eeeee4 ;
+    color: rgb(19, 106, 205);
+    border-color: rgb(19, 106, 205);
+    cursor:not-allowed;
+
+}
+.EntryDocFooter .BtnWrap .DeleBtn{
+    background-color: #b52626;
+    color: #fff;
+    border-color: #b52626;
+}
+.EntryDocFooter .BtnWrap .DeleBtn:hover , .EntryDocFooter .BtnWrap .DeleBtn:active{
+    background-color: #800808;
+    border-color: #800808;
+}
+.EntryDocFooter .BtnWrap .DeleBtn.DeleBtnDisabled ,
+.EntryDocFooter .BtnWrap .DeleBtn.DeleBtnDisabled:hover ,
+.EntryDocFooter .BtnWrap .DeleBtn.DeleBtnDisabled:active{
+    
+    background-color: #db5757;
+    cursor:not-allowed;
+    border-color: #db5757;
+  }

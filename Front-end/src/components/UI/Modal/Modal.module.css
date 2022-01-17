@@ -1,0 +1,18 @@
+.Modal{
+    margin: 0;
+    padding: 0;
+    z-index:1000;
+    width:47vw;
+
+
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px -5px #4d6575;
+    position: fixed;
+    right:28vw;
+    
+    transition: top 0.15s ease-in-out,
+    opacity 0.15s ease-in-out ;
+    
+    
+}

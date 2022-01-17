@@ -1,0 +1,8 @@
+.Label{
+    display: block;
+    color: rgb(28, 37, 44);
+    font-weight: normal;
+    font-family: inherit;
+    width: 100%;
+    text-align: left;
+}

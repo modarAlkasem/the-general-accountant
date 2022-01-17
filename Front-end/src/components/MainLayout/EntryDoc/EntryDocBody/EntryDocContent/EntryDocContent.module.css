@@ -1,0 +1,103 @@
+.EntryDocContent{
+    padding: 0;
+    margin: 0px 0 40px 0;
+
+}
+
+
+
+
+.EntryDocContent .Table{
+    display: block;
+    height: 70vh;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.EntryDocContent .Table thead{
+    display: block;
+    position: sticky;
+    top:0;
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid #d4dde3;
+    padding-bottom: 5px;
+}
+.EntryDocContent .Table thead tr th{
+    width: 14%;
+    white-space: nowrap;
+    text-align: center;
+}
+.EntryDocContent .Table tbody{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    
+}
+.EntryDocContent .Table tr{
+    display: block;
+    width:100%;
+}
+
+/* /////////////////////// */
+.EntryDocContent .Table thead tr .ThRowId{
+    width: 5%;
+    
+}
+.EntryDocContent .Table thead tr .ThAccount{
+    width: 17%;
+}
+.EntryDocContent .Table thead tr .ThDescription{
+    width: 25%; 
+}
+
+
+.EntryDocContent .Table thead tr .ThDepCred{
+    width: 12%; 
+}
+.EntryDocContent .Table thead tr .ThDate{
+    width: 10%; 
+}
+.EntryDocContent .Table thead tr .ThCorresAcc{
+    width: 28%; 
+
+}
+.EntryDocContent .SumAndDifWrap{
+   
+    margin: 40px 34%;
+
+    /* background-color: red; */
+    text-align: left;
+    box-sizing: border-box;
+}
+.EntryDocContent .SumAndDifWrap .SumWrapper{
+    
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    font-weight: bold;
+}
+.EntryDocContent .SumAndDifWrap .DifferenceWrapper{
+    margin-bottom: 0px;
+    padding: 0;
+    font-weight: bold;
+}
+.EntryDocContent .SumAndDifWrap span{
+    display: inline-block;
+    width: 36%;
+    height: 40px;
+    margin-left: 5px;
+    border-right: 5px solid #fff;
+    box-sizing: border-box;
+    padding-top: 7px;
+    text-align: center;
+    font-weight: normal;
+    background:#136Acd;
+    color:#fff;
+
+
+}
+ .EntryDocContent .SumAndDifWrap span.NotEqual{
+    background-color:#b52626;
+    color:#fff
+}

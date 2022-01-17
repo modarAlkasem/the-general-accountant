@@ -1,0 +1,87 @@
+.SearchAndInfo{
+    display: block;
+    width:100%;
+    margin: 40px 0px;
+}
+.SearchAndInfo tbody{
+    display: block;
+    width:100%;
+
+}
+.SearchAndInfo tr{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.SearchAndInfo tr td{
+    display: inline-block;
+    text-align: right;
+
+}
+.SearchAndInfo tr td.InfoWrap{
+    width: 23%;
+}
+.SearchAndInfo tr td.LargeBtnWrap{
+    width:10% ;
+    
+
+}
+.SearchAndInfo tr td.TextFieldWrap{
+    width:25%;
+    margin-right: 1.5%;
+}
+.SearchAndInfo tr td.TextFieldWrap input{
+    border-radius: 0 3px 3px 0;
+    margin-bottom: 0;
+
+}
+.SearchAndInfo tr td.SearchBtnWrap{
+    width: 6%;
+    position: relative;
+    left:2px;
+    
+   
+    
+}
+
+
+.SearchAndInfo tr td.LargeBtnWrap button.PreviewBtn{
+    background-color: rgb(19, 106, 205);
+    color: rgb(255, 255, 255);
+    border-color: rgb(19, 106, 205);
+}
+.SearchAndInfo tr td.LargeBtnWrap button.PreviewBtn:hover ,
+.SearchAndInfo tr td.LargeBtnWrap button.PreviewBtn:active{
+    background-color: #00408a ;
+    border-color: #00408a ;
+}
+
+.SearchAndInfo tr td.LargeBtnWrap button.ExportBtn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(19, 106, 205);
+    border-color: rgb(19, 106, 205);
+}
+
+.SearchAndInfo tr td.LargeBtnWrap button.ExportBtn:hover ,
+.SearchAndInfo tr td.LargeBtnWrap button.ExportBtn:active{
+    background-color:#97c3f5;
+    border-color:#204a79;
+    color:#204a79;
+}
+.SearchAndInfo tr td.SearchBtnWrap button.SearchBtn{
+    background-color: rgba(231,239,255,0.9);
+    color: #1c252c;;
+    border-color: rgba(231,239,255,0.9);
+    border-radius: 3px 0 0 3px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-top:2px ;
+    height: 50px;
+}
+.SearchAndInfo tr td.SearchBtnWrap button.SearchBtn:hover ,
+.SearchAndInfo tr td.SearchBtnWrap button.SearchBtn:active{
+    background-color: rgba(209, 224, 255, 0.9);
+    border-color: rgba(209, 224, 255, 0.9);
+}

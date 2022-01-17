@@ -1,0 +1,55 @@
+.NavigationItem{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: #212529;
+    margin-left: 20px;
+
+}
+
+.NavigationItem a{
+    display: block;
+    height: 100%;
+    color: inherit;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 17.6px;
+    font-weight: 600;  
+    box-sizing: border-box;
+    padding: 12px 0 10px 0px;
+    cursor: pointer;
+    
+    
+}
+
+.NavigationItem.Button{
+    
+    border: 1px solid  #136acd;;
+    padding: 0px 9.6px;
+    border-radius: 70px;
+    transition: background-color 0.15s ease-in-out,
+    color 0.15s ease-in-out ;
+}
+
+
+.NavigationItem.Button.SignIn{
+    color:#136acd ;
+    
+}
+.NavigationItem.Button.SignUp{
+    background-color:#136acd ;
+    color:white ;
+    
+}
+.NavigationItem.Button.SignIn:hover,
+.NavigationItem.Button.SignIn:active{
+    background-color:#136acd  ;
+    color: white;
+}
+.NavigationItem.Button.SignUp:hover,
+.NavigationItem.Button.SignUp:active{
+    background-color:#054083  ;
+    color: white;
+}

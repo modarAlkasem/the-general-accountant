@@ -1,0 +1,102 @@
+.AccountBlock {
+    display: block;
+    width:100%;
+
+}
+.AccountBlock tbody{
+    display: block;
+    
+
+}
+
+.AccountBlock tbody tfoot{
+    display: block;
+}
+.AccountBlock tr:hover{
+    background-color: rgb(214, 248, 203);
+
+}
+.AccountBlock tbody tr{
+    display: block;
+    border-bottom: 1px solid #d4dde3;
+    height:71px ;
+}
+.AccountBlock tbody tr:first-child{
+    background-color: #e0e7eb;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    vertical-align: top;
+    font-weight: 600;
+    color:#1c252c;
+    font-family: inherit;
+    border:none;
+    height: initial;
+}
+.AccountBlock tbody tr:first-child:hover{
+    background-color: #e0e7eb;
+}
+.AccountBlock tbody tr:first-child td{
+    padding: 0;
+    height: initial;
+   
+    display: initial;
+}
+.AccountBlock tbody tr td{
+    display: inline-flex;
+    height: 100%;
+    padding:5px 15px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    
+}
+.AccountBlock tbody tr td:nth-child(1){
+    width: 50px;
+  
+
+}
+.AccountBlock tbody tr td:nth-child(2){
+    min-width: 205px;
+  
+
+}
+.AccountBlock tbody tr td:nth-child(3){
+    min-width: 375px;
+  
+}
+.AccountBlock tbody tr td:nth-child(4){
+    min-width: 78px;
+    
+}
+.AccountBlock tbody tr td:nth-child(4) svg{
+    cursor: pointer;
+
+}
+.AccountBlock tfoot{
+    height:71px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AccountBlock tfoot:hover {
+    background-color: rgb(214, 248, 203);
+
+}
+.AccountBlock tfoot td{
+    cursor: pointer;
+}
+.AccountBlock tfoot td:hover span{
+    border-bottom: 1px solid #136ACD;
+
+}
+.AccountBlock tfoot td svg {
+    position: relative;
+    top:5px;
+    margin-left: 5px;
+}
+.AccountBlock tfoot td span{
+    font-weight: bold;
+    color:#136ACD;
+
+}

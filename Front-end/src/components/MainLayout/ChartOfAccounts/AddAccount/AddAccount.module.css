@@ -1,0 +1,50 @@
+.MainContent{
+    box-sizing: border-box;
+    padding: 10px 70px 0px 70px;
+    margin: 0;
+    border-bottom: 1px solid rgb(212, 221, 227);
+
+
+}
+.MainContent .group{
+    margin:0 0 16px 0 ;
+    padding: 0;
+
+    /* justify-content: space-evenly; */
+
+}
+.MainContent .group .LabelWrapper{
+    margin: 0;
+    padding: 0;
+    width:27%;
+    margin-left: 13px;
+    display: inline-block;
+    
+}
+.MainContent .group .InputWrapper{
+    margin: 0;
+    padding: 0;
+    width:65%;
+    display: inline-block;
+    
+}
+.MainContent .group .InputWrapper input[name="newAccountIdField"]{
+    width:50%;
+}
+
+.MainContent .group .LabelWrapper.Special{
+    position: relative;
+    bottom:13vh;
+
+}
+.Footer{
+    margin: 10px 0 5px 10px;
+    padding: 0;
+}
+.Footer .BtnWrapper{
+    margin: 0 5px;
+    padding: 0;
+    width: 16%;
+    display: inline-block;
+    
+}

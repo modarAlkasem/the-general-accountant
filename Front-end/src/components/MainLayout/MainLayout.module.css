@@ -1,0 +1,17 @@
+.MainLayout{
+    margin:0;
+    padding:0;
+    width:100%;
+    
+
+
+
+}
+
+.MainLayout .Content{
+    position:absolute;
+    right:243px;
+    width:70%;
+    margin:0 50px;
+
+}

@@ -1,0 +1,10 @@
+.ModalHeader{
+    margin: 0;
+    padding: 20px 24px;
+    font-size: 23px;
+    font-weight: 500;
+    color: rgb(28, 37, 44);
+    font-family: inherit;
+   
+    border-bottom: 1px solid rgb(212, 221, 227);
+}

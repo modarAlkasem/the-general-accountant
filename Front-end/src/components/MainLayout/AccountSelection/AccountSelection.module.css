@@ -1,0 +1,79 @@
+/* .AccountSelection{
+    margin:0px 25%;
+    padding:0;
+    text-align:center;
+} */
+.AccountSelection .TableWrap{
+    overflow:auto;
+    max-height:70vh;
+    margin:0;
+    padding:10px 20% 0px 20%;
+    box-sizing:border-box;
+    border-bottom: 1px solid #d4dde3;
+}
+
+.AccountSelection table{
+    display:block;
+    width:100%;
+
+
+
+}
+.AccountSelection table thead{ 
+    display:block;
+    width:100%;
+    padding-bottom:5px;
+    border-bottom: 1px solid #d4dde3;
+
+}
+.AccountSelection table tbody{ 
+    display:block;
+    width:100%;
+    padding-bottom:10px 0;
+
+}
+
+.AccountSelection table tr{
+    display:block;
+    width:100%;
+}
+.AccountSelection table tbody tr {
+    border-bottom: 1px solid #d4dde3;
+    cursor:pointer;
+}
+ .AccountSelection table tbody tr:hover ,.AccountSelection table tbody tr:active{
+     background-color: rgba(231,239,255,0.9);
+ } 
+.AccountSelection table tr th{
+    display:inline-block;
+    width:32%;
+    text-align:center;
+    white-space:nowrap;
+}
+
+.AccountSelection table tbody tr td{
+    display:inline-block;
+    width:33.2%;
+    text-align:center;
+    white-space:nowrap;
+    box-sizing:border-box;
+    padding:11px 16px;
+    border: 1.5px solid rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    color: #2F414A;
+
+}
+.AccountSelection table tbody tr:last-child{
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0);
+}
+.AccountSelection  .Footer{
+    margin: 10px 0 5px 10px;
+    padding: 0;
+}
+.AccountSelection  .Footer .BtnWrapper{
+    margin: 0 5px;
+    padding: 0;
+    width: 16%;
+    display: inline-block;
+    
+}

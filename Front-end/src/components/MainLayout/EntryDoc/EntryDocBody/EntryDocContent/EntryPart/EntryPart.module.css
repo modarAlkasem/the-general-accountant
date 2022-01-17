@@ -1,0 +1,46 @@
+.EntryPart {
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+
+.EntryPart td{
+    padding: 0;
+    text-align: center;
+}
+
+
+.EntryPart input[type="text"]{
+
+    margin: 0;
+    height: 6vh;
+
+}
+.EntryPart  .TdRowId{
+    width: 5%;
+    
+}
+.EntryPart  .TdRowId input[type='text']{
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+}
+.EntryPart .TdAccount{
+    width: 17%;
+}
+.EntryPart .TdDescription{
+    width: 25%; 
+}
+
+
+.EntryPart .TdDepCred{
+    width: 12%; 
+}
+.EntryPart .TdDate{
+    width: 10%; 
+}
+.EntryPart .TdCorresAcc{
+    width: 28%; 
+
+}

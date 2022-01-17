@@ -1,0 +1,21 @@
+.Dropdown{
+    display: block;
+    font-weight: normal;
+    font-family: inherit;
+    color: rgb(28, 37, 44);
+    border: 1px solid rgb(178, 194, 205);
+    border-radius: 4px;
+    padding: 8px 10px 6px 26px;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 100%;
+}
+
+.Dropdown:focus{
+    border:1px solid #136acd;
+    box-shadow:0px 0px 5px 1px #136acd ;
+    color: #1c252c;
+}

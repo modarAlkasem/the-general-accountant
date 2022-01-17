@@ -1,0 +1,23 @@
+.PageTitle{
+
+    padding:0;
+    margin:40px 0 20px 0;
+
+}
+.PageTitle span.Title{
+    color:#1c252c;
+    font-size:33px;
+    font-family:inherit;
+    font-weight:bold;
+
+}
+.PageTitle span.WrapQuestionLogo{
+    display:inline-block;
+    width:25px;
+    height:20px;
+     cursor:pointer;
+}
+svg.QuestionLogo{
+   margin-right:5px;
+  
+}

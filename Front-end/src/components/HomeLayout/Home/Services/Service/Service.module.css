@@ -1,0 +1,19 @@
+.Service {
+    height: 100%;
+    text-align: center;
+}
+.Service img{
+    height: 100%;
+    
+}
+.Service span{
+font-size: 20px;
+font-family: inherit;
+font-weight: 700;
+color:#1673DE;
+display: block;
+white-space: normal;
+width: 90%;
+box-sizing: border-box;
+padding-left: 20px;
+}

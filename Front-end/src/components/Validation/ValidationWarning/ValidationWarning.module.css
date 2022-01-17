@@ -1,0 +1,53 @@
+.ValidationWarning{
+    width:650px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 1px solid #ffe9e9;
+    background: #fff8f8;
+   
+
+}
+.ValidationWarning .SideBorder{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 1%;
+    background: #b52626;
+    border: solid 1px #b52626 ;
+    border-radius: 0 8px 8px 0;
+    height:77px !important;
+  
+    float:right;
+}
+.ValidationWarning .Header{
+    display: inline-block;
+    margin: 10px 0 10px 5px;
+    padding: 0;
+    position: relative;
+    right: -26%;
+
+}
+.ValidationWarning .Header svg.WarningIcon{
+    color: #b52626;
+    position: relative;
+    font-size: 19px;
+    top:4px;
+
+}
+.ValidationWarning .Header span{
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 1.4;
+    font-weight: 600;
+    font-size: 19px;
+    color: #b52626;
+}
+.ValidationWarning .Description{
+   
+    margin: 0 0 10px 0;
+    color: #1c252c;
+    font-weight: normal;
+    position: relative;
+    right: -24%;
+}
+

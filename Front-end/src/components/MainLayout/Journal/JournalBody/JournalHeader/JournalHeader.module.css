@@ -1,0 +1,30 @@
+.JournalHeader{
+    display: block;
+    width:100%;
+    margin: 40px 0px;
+}
+.JournalHeader tbody{
+    display: block;
+    width:100%;
+
+}
+.JournalHeader tr{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.JournalHeader tbody tr .BtnWrap{
+    display: inline-block;
+    width:10%
+}
+.JournalHeader tbody tr .BtnWrap button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(19, 106, 205);
+    border-color: rgb(19, 106, 205);
+}
+.JournalHeader tbody tr .BtnWrap button:hover,
+.JournalHeader tbody tr .BtnWrap button:active{
+    background-color:#97c3f5;
+    border-color:#204a79;
+    color:#204a79;
+}

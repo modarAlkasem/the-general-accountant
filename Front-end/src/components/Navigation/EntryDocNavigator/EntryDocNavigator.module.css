@@ -1,0 +1,45 @@
+.EntryDocNavigator{
+    display: inline-block;
+    width: 35%;
+}
+.EntryDocNavigator .ButtonWrapper{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+}
+.EntryDocNavigator .InputWrapper{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    position: relative;
+    top:-10px;
+  
+}
+.EntryDocNavigator .InputWrapper input[type= "text"]{
+    margin: 0;
+    height: 40px;
+    text-align: center;
+    
+}
+
+.EntryDocNavigator .ButtonWrapper button{
+    background-color: #136Acd !important;
+    border-radius: 5px!important;
+    border-color: #136Acd !important;
+    padding: 3px 6px;
+    height: 40px;
+
+}
+.EntryDocNavigator .ButtonWrapper button:hover,.EntryDocNavigator .ButtonWrapper button:active{
+    background-color: #00408a !important;
+    border-color: #00408a !important;
+}
+.EntryDocNavigator .ButtonWrapper .NavBtnDisabled , .EntryDocNavigator .ButtonWrapper .NavBtnDisabled:hover , 
+.EntryDocNavigator .ButtonWrapper .NavBtnDisabled:active {
+    background-color:#4596ed!important;
+    cursor:not-allowed!important;
+    border-color:#4596ed!important;
+
+}

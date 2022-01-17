@@ -1,0 +1,13 @@
+.ValidationText{
+    display:inline ;
+    font-size: 0.9rem;
+    font-weight: normal; white-space: nowrap; 
+    position: relative;
+     bottom: 14px;
+     left:29%; 
+    color:#c22929;
+    
+}
+.LongText{
+    left:0%; 
+}

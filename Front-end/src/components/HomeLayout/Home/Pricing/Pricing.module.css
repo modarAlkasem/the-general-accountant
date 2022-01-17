@@ -1,0 +1,45 @@
+.Pricing{
+    margin: 0px  59px;
+    padding:0px;
+    text-align: center;
+
+
+
+}
+
+.Pricing h2{
+    margin-top: 60px;
+    font-size: 40px;
+    font-family: inherit;
+    color: #000;
+}
+
+.Pricing .Main{
+    height: 270px;
+    border: 1px solid #E4E6E9 !important;
+    width: 19%;
+    margin-left: 40%;
+    border-radius: .25rem !important;
+    text-align: center;
+
+}
+
+.Pricing .Main .Header{
+    margin:0px 25%;
+    height: 10%;
+    padding: 8px 0 ;
+    font-weight: 700;
+    color: #fff;
+    background-color: #107d90;
+    font-family: inherit;
+    vertical-align: middle;
+}
+.Pricing .Main .Amount{
+
+    margin-top :20%;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: inherit;
+    color: #107d90 !important;
+    
+}

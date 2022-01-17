@@ -1,0 +1,29 @@
+.GreetingContent{
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    background-image: url('./../../../../assets/images/cover.jpg');
+    background-size: cover;
+    background-position:center;
+    
+    
+}
+.GreetingContent h1{
+    color: white;
+    position: relative;
+    top:15%;
+    font-size: 48px;
+    
+}
+.GreetingContent .inputForm{
+    height: 50%;
+    width: 29%;
+    margin: auto;
+    position: relative;
+    top:80px;
+    
+
+
+}

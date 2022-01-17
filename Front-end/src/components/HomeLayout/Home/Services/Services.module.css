@@ -1,0 +1,24 @@
+.Services{
+    margin: 0px 59px;
+    padding: 0px;
+    text-align: center;
+    height: 300px;
+    
+   
+       
+}
+.Services h2{
+    margin-top: 60px;
+    font-size: 40px;
+    font-family: inherit;
+    color: #000;
+}
+.Services .ServicesItems{
+    width: 100%;
+    height:107px ;
+    margin-top: 22px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    
+}

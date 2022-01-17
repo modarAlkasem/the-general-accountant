@@ -1,0 +1,31 @@
+.Button{
+    display: block;
+    width: 100%;
+    height: 48px;
+    box-sizing: border-box;
+    outline: none;
+    padding: 11px 24px;
+    color: #212529;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #FCB32C;
+    border-color: #FCB32C;
+    cursor: pointer;
+    font-family: inherit;
+    text-align: center;
+    font-weight: 600;
+    vertical-align: center;
+    border-radius: 3rem;
+    font-size: 1rem;
+    transition: background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out ;
+}
+.Button:active,
+.Button:hover{
+    background-color: #ffa806;
+    border-color: #ffa806;
+    
+
+}
+
+

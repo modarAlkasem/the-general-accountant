@@ -1,0 +1,32 @@
+.LogoWithTitle{
+    display:flex;
+    flex-flow:row;
+    text-align:center;
+    margin:8px;
+    vertical-align:center;
+    
+
+}
+
+.LogoWithTitle .Image{
+    width:62px;
+    height:48px
+}
+
+.LogoWithTitle .Image img{
+    width:100%;
+    height:100%;
+}
+
+.LogoWithTitle span{
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: bold;
+    color: #1c252c;
+    position:relative;
+    top:10px;
+    width:70%;
+    text-align:right;
+    
+
+}

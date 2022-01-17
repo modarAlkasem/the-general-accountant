@@ -1,0 +1,48 @@
+.SignIn{
+    height: 80vh;
+    width: 100vw;
+    box-sizing: border-box;
+    padding-top: 48px;
+    text-align: center;
+    margin: 0;
+    
+
+}
+.SignIn h1{ 
+    margin-bottom:35px;
+   
+}
+
+.SignIn .imgWrap{
+    height:20%;
+    width:40%;
+    margin-bottom: 50px;
+    Padding:0;
+    margin-left: 28%;
+    display: block;
+    text-decoration: none;
+    
+
+
+}
+.SignIn .imgWrap img{
+    height: 100%;
+    width:100%;
+}
+.SignIn .Form{
+
+    width: 400px;
+    margin-left: 34%;
+
+   
+}
+.SignIn .Form span.UsedEmailValidate{
+    
+    white-space: normal;
+    display: block;
+    width: 100%;
+    left:0%;
+
+
+}
+
