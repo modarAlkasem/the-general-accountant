@@ -7,11 +7,9 @@
 
 ## :point_right: Description
 
-### The    General    Accountant    is  a   web  application  that  functions  as  an accounting  system   with   capability to  
-
-###  be  customized for  each  foundation and  provides management  for financial accounts and  automating for   
-
- ### essential accounting operations. ### 
+<h3> The    General    Accountant    is  a   web  application  that  functions  as  an accounting  system   with   capability to  
+be  customized for  each  foundation and  provides management  for financial accounts and  automating for   
+essential accounting operations. </h3> 
 
 
 <h2 align="center">🌐 Links 🌐</h2>
@@ -200,13 +198,13 @@ npm start
 
 ## 👷 Built with
 
- [MySQL](https://www.mysql.com/ "MySQL"): as Database Engine
+[React](https://reactjs.org/ "React"): as Front End
 
- [Laravel](https://laravel.com/ "Laravel"): as RESTful API
+[Laravel](https://laravel.com/ "Laravel"): as RESTful API
 
- [React](https://reactjs.org/ "React"): as Front End
+[MySQL](https://www.mysql.com/ "MySQL"): as Database Engine
 
-
+ 
 ## 🎊 Further Approach
 
 - [ ] Add capability to create bills.
